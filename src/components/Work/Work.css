@@ -1,0 +1,108 @@
+.dummy {
+  width: 100%;
+  height: 50px;
+}
+
+
+.work_main {
+
+  width: 100%;
+  height: auto;
+  position: relative;
+
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 99vw;
+  height: 40vh;
+  cursor: pointer;
+  margin: auto;
+ 
+}
+
+.swiper-slide {
+
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid rgba(128, 128, 128, 0.174);
+}
+.card_icons p {
+  padding: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 0.9rem;
+  /* line-height: 20px; */
+}
+.button_section {
+ 
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+  bottom: 0;
+}
+
+.swiper-slide:hover .card_icons {
+  top: 0;
+  transition: 0.5s ease-in-out;
+}
+.card_icons {
+  background-color: rgba(255, 255, 255, 0.429);
+  backdrop-filter: blur(5px);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 40rem;
+  transition: 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.card_icons button {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(80, 75, 75);
+}
+.swiper-slide img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 520px) {
+  .card_row_main {
+    width: 100%;
+    overflow: hidden;
+  
+  }
+  .swiper {
+    width: 90%;
+    height: 30vh;
+    margin: auto;
+  }
+  .work_main {
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 521px) and (max-width: 1024px) {
+  .swiper {
+    width: 80%;
+    height: 80vh;
+  }
+  .work_main {
+    /* width: 100%; */
+    height: 100%;
+    /* position: relative; */
+  }
+}

@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Caramel&family=Cedarville+Cursive&family=Dancing+Script:wght@400;500&family=Lobster&family=Mochiy+Pop+One&family=MuseoModerno:wght@300&family=Nosifer&family=Nunito&family=PT+Sans&family=Poppins:ital,wght@0,400;0,800;1,400&family=Quattrocento:wght@400;700&family=Qwitcher+Grypen&family=Rancho&family=Righteous&family=Roboto+Mono:wght@500&family=Rubik+Gemstones&family=Rubik+Puddles&family=Russo+One&family=Satisfy&display=swap");
+.parent_div {
+  width: 100%;
+  height: 100vh;
+
+  overflow: hidden;
+
+}
+.dummy {
+  width: 100%;
+  height: 12vh;
+
+}
+
+.banner_main {
+  height: 88vh;
+  position: relative;
+}
+
+.bottom_chooseprofile_shadow {
+  width: 100%;
+  height: 57vh;
+  position: absolute;
+  bottom: -1rem;
+  left: 0;
+
+  overflow: hidden;
+}
+.grass_ground {
+  width: 100%;
+  height: 11vh;
+  position: absolute;
+  left: 0;
+  bottom: -0.5rem;
+  z-index: 2;
+  display: flex;
+}
+
+.fence {
+  width: 30%;
+  height: 30vh;
+  position: absolute;
+  bottom: -1rem;
+  z-index: 1;
+  rotate: -6deg;
+}
+.fence img {
+  width: 100%;
+  height: 100%;
+}
+.fence_right {
+  width: 30%;
+  height: 30vh;
+  position: absolute;
+  bottom: -1rem;
+  right: 0;
+
+  z-index: 1;
+  rotate: 6deg;
+}
+.fence_right img {
+  width: 100%;
+  height: 100%;
+  rotate: 180deg;
+}
+
+.walkdog {
+  position: absolute;
+  width: 30%;
+  height: 52vh;
+
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+.walkdog > img {
+  width: 100%;
+  height: 100%;
+}
+
+.sky_hero {
+  width: 20%;
+  height: 30vh;
+  animation: hero_sky 30s linear infinite;
+}
+@keyframes hero_sky {
+  100% {
+    transform: translateX(100vw);
+  }
+}
+.sky_hero > img {
+  width: 100%;
+  height: 100%;
+}
+
+.callout_box {
+  position: absolute;
+  width: 20%;
+  height: 30vh;
+  left: -10vw;
+  right: 0;
+  top: 20vh;
+  margin: auto;
+  text-align: center;
+  display: flex;
+
+  justify-content: center;
+  /* transform: scale(0); */
+
+  animation: callout_first 10s infinite;
+  animation-delay: 1s;
+}
+@keyframes callout_first {
+  50% {
+    transform: rotate(5deg);
+  }
+}
+
+.callout_Two {
+  position: absolute;
+  width: 20%;
+  height: 30vh;
+  left: 30vw;
+  right: 0;
+  top: 20vh;
+  margin: auto;
+  text-align: center;
+  display: flex;
+
+  justify-content: center;
+  /* transform: scale(0); */
+
+  animation: callout_first 10s infinite;
+  animation-delay: 1s;
+}
+.bubble {
+  box-sizing: border-box;
+
+  background: #fffefe;
+  color: #000000c5;
+  font-family: Arial;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgb(215, 244, 249);
+  box-shadow: inset rgb(255, 255, 255) 2px 1px 10px;
+  padding: 20px;
+  font-family: "Dancing Script", cursive;
+
+  /* font-family: 'Rancho', cursive; */
+  /* font-family: 'Righteous', sans-serif; */
+  /* font-family: 'Roboto Mono', monospace; */
+  /* font-family: 'Satisfy', cursive; */
+}
+.bubble p {
+  margin: auto;
+}
+.bubble:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  z-index: 1;
+  border-style: solid;
+  border-width: 0 20px 20px 0;
+
+  border-color: transparent rgb(215, 244, 249) transparent transparent;
+  bottom: -17px;
+  left: 50%;
+  margin-left: -10px;
+}
+.bubbleTwo {
+  position: relative;
+  border-radius: 50%;
+  color: #000000c5;
+  background-color: rgb(215, 244, 249);
+  font-family: Arial;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+
+  box-shadow: inset rgba(255, 255, 255, 0.715) 2px 6px 0px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 0px;
+  font-family: "Dancing Script", cursive;
+}
+.bubbleTwo p {
+  margin: auto;
+}
+.bubbleTwo:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  z-index: 1;
+
+  border-style: solid;
+  border-width: 20px 20px 0 0;
+  border-color: rgb(215, 244, 249) transparent transparent transparent;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -10px;
+}
+@media screen and (max-width: 520px) {
+  .parent_div{
+  height: 90vh;
+  }
+  .fence {
+    height: 22vh;
+  }
+  .fence_right {
+    height: 22vh;
+  }
+
+  .walkdog {
+    width: 50%;
+    height: 42vh;
+    /* bottom: 0; */
+  }
+
+  .bottom_chooseprofile_shadow {
+    width: 100%;
+    height: 47vh;
+  }
+
+  .callout_Two {
+    position: absolute;
+    width: 70%;
+  }
+
+  .callout_box {
+    position: absolute;
+    width: 55%;
+    height: 25vh;
+  }
+
+  .sky_hero {
+    width: 50%;
+  }
+}

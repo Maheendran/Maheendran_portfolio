@@ -1,0 +1,221 @@
+.skills-container {
+  margin-top: 20px;
+  width: 100vw;
+  height: 100vh;
+  border: 0px solid rgb(0, 0, 0);
+  /* background-image: linear-gradient(135deg, #FFF886 10%, #F072B6 100%); */
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+.skills-heading {
+  margin-top: 90px;
+  border: 0px solid;
+  /* height: 110px; */
+}
+.skills-single-boot {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, 0.252);
+}
+.skill_circle {
+  width: 400px;
+  height: 400px;
+  background: rgb(254, 240, 137);
+  background: linear-gradient(
+    164deg,
+    rgba(254, 240, 137, 1) 25%,
+    rgba(242, 128, 177, 1) 77%
+  );
+  position: absolute;
+  border-radius: 50%;
+  bottom: -6rem;
+  left: -6rem;
+  backdrop-filter: blur(5px);
+}
+.skill_small_circle {
+  width: 200px;
+  height: 200px;
+  background: rgb(254, 240, 137);
+  background: linear-gradient(
+    164deg,
+    rgba(254, 240, 137, 1) 25%,
+    rgba(242, 128, 177, 1) 77%
+  );
+  position: absolute;
+  border-radius: 50%;
+  top: -4rem;
+  right: -4rem;
+  backdrop-filter: blur(5px);
+  /* z-index: -1; */
+}
+.skills-single-boot p {
+  cursor: pointer;
+}
+.skills-single-react p {
+  cursor: pointer;
+}
+.skills-grid {
+  margin: auto;
+  height: auto;
+  width: 90vw;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+  gap: 40px;
+}
+.skills-grid div {
+  /* background-color: white; */
+  margin-top: 40px;
+cursor: pointer;
+  width: 100%;
+  /* height: 10vw; */
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+/* .......skill animation......... */
+.skills-single-react {
+  animation: react 4s linear infinite;
+}
+@keyframes react {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+.skills-single-boot {
+  animation: boot 4s linear infinite;
+}
+@keyframes boot {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.skills-grid > div:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.skills-grid img {
+  margin-top: 20px;
+  width: 90px;
+  border-radius: 20%;
+}
+.skills-grid p {
+  position: relative;
+  bottom: 0;
+  font-weight: 600;
+}
+/* .......................... */
+
+@media screen and (max-width: 480px) {
+  .heading {
+    font-weight: 600;
+  }
+  .skills-container {
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    /* border: 3px solid rgb(206, 27, 27); */
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+  }
+  .heading {
+    position: relative;
+    z-index: 1;
+  }
+  .skills-heading {
+    margin-top: 50px;
+  }
+  .skill_circle {
+    bottom: -5rem;
+    left: -5rem;
+  }
+  .skills-grid {
+    margin: auto;
+    padding-bottom: 50px;
+    text-align: center;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    border: 1px solid;
+    border: 0px solid;
+
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: auto;
+  }
+  /* .skills-grid div>img{
+              width: 65%;
+              height: 65%;
+             margin: auto;
+             padding: 10px;
+            }
+            .skills-grid >div{
+              
+              background-color: white;
+              margin-top: 30px;
+              border: 0px solid;
+              height: 100%;
+              border-radius: 20px;
+              text-align: center;
+              align-items: center;
+              box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+            
+            } */
+  /* .......skill animation......... */
+
+  .skills-grid > div:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .skills-grid p {
+    position: relative;
+    bottom: 0;
+    font-weight: 600;
+    font-size: 80%;
+    padding: 5px;
+  }
+
+  .skills-heading h1 {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .skills-container {
+    width: 100%;
+    border: 0px solid;
+    height: 100%;
+    padding-bottom: 50px;
+  }
+  .skills-grid {
+    margin: auto;
+    border: 0px solid;
+    width: 73%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 170px);
+    grid-template-rows: auto;
+    gap: 40px;
+  }
+  .skills-grid {
+    column-gap: 15%;
+  }
+}

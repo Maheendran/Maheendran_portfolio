@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="500"
+   viewBox="0 0 800 500"
+   fill="none"
+   version="1.1"
+   id="svg11"
+   sodipodi:docname="bg-cloud.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <g
+     id="g904"
+     style="fill:#c6edff;fill-opacity:1"
+     transform="matrix(0.9413203,0,0,0.9413203,113.90758,177.55001)">
+    <circle
+       style="fill:#c6edff;fill-opacity:1;stroke:none;stroke-width:58.6696;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:117.339, 352.017;stroke-dashoffset:0;paint-order:stroke fill markers"
+       id="path837"
+       cx="541.14606"
+       cy="160.84044"
+       r="142.05872" />
+    <circle
+       style="fill:#c6edff;fill-opacity:1;stroke:none;stroke-width:52.4939;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:104.987, 314.963;stroke-dashoffset:0;paint-order:stroke fill markers"
+       id="path837-1"
+       cx="190.48532"
+       cy="213.92554"
+       r="127.10517" />
+    <circle
+       style="fill:#c6edff;fill-opacity:1;stroke:none;stroke-width:63.7644;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:127.529, 382.587;stroke-dashoffset:0;paint-order:stroke fill markers"
+       id="path837-1-7"
+       cx="36.089958"
+       cy="176.16779"
+       r="154.39539" />
+    <circle
+       style="fill:#c6edff;fill-opacity:1;stroke:none;stroke-width:45.0828;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:90.1655, 270.497;stroke-dashoffset:0;paint-order:stroke fill markers"
+       id="path837-1-7-2"
+       cx="362.07733"
+       cy="217.29005"
+       r="109.16091" />
+    <circle
+       style="fill:#c6edff;fill-opacity:1;stroke:none;stroke-width:69.7859;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:139.571, 418.715;stroke-dashoffset:0;paint-order:stroke fill markers"
+       id="path837-1-7-26"
+       cx="289.55261"
+       cy="51.305645"
+       r="168.97511" />
+  </g>
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1378"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="0.55585692"
+     inkscape:cx="-132.25312"
+     inkscape:cy="-38.509556"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg11"
+     inkscape:document-rotation="0" />
+  <defs
+     id="defs9">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient846">
+      <stop
+         style="stop-color:#03a9f4;stop-opacity:1;"
+         offset="0"
+         id="stop842" />
+      <stop
+         style="stop-color:#90b3c3;stop-opacity:1"
+         offset="1"
+         id="stop844" />
+    </linearGradient>
+    <linearGradient
+       id="paint0_linear"
+       x1="1065980"
+       y1="376369"
+       x2="1065980"
+       y2="21583.5"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#537FF5"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#2A5EE8"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient846"
+       id="linearGradient848"
+       x1="1046.9401"
+       y1="45.795677"
+       x2="91.591354"
+       y2="616.96954"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+</svg>
