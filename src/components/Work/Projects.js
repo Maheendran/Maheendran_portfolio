@@ -63,17 +63,17 @@ export const project=[{
       ]
 
       export const reactdata=[ 
-        // {
-        //   img:"./assets/project/buddy.png",
-        //   name:"Buddy chat",
-        //   discription:"This website is a clone of 'Buddy chat' & here i implemented some functionalities product sorting & filtering,add to cart etc.  ",
-        //   tech:"HTML,CSS,JAVASCRIPT,REACT,MONGO DB",
-        //   linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_socialmedia-reactjs-nodejs-activity-7009843753389633536-8bzc?utm_source=share&utm_medium=member_desktop",
-        //   fachebook:"",
-        //   github:"https://github.com/Maheendran/BUDDY_CHAT_APP"
-        //   ,type:"react"
+        {
+          img:"./assets/project/buddy.png",
+          name:"Buddy chat",
+          discription:"This website is a clone of 'Buddy chat' & here i implemented some functionalities product sorting & filtering,add to cart etc.  ",
+          tech:"HTML,CSS,JAVASCRIPT,REACT,MONGO DB",
+          linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_socialmedia-reactjs-nodejs-activity-7009843753389633536-8bzc?utm_source=share&utm_medium=member_desktop",
+          fachebook:"",
+          github:"https://github.com/Maheendran/BUDDY_CHAT_APP"
+          ,type:"react"
           
-        //     },
+            },
         {
           img:"./assets/project/flipkart.png",
           name:"  Flipkart",
@@ -96,6 +96,16 @@ export const project=[{
           ,type:"react"
           
             },
+            {
+              img:"./assets/project/netflix.png",
+              name:"Netflix",
+              discription:"This website is a clone of 'NETFLIX' & here i implemented some functionalities, backend integreated with firebase.",
+              tech:"HTML,CSS,JAVASCRIPT,REACT,FIREBASE",
+              linked:"",
+              fachebook:"https://superlative-moxie-eaac06.netlify.app/",
+              github:"https://github.com/Maheendran/Netflix"
+              ,type:"react"
+                },
       {
             img:"./assets/project/adidas.png",
             name:"  Adidas",
@@ -124,16 +134,7 @@ export const project=[{
                     fachebook:"https://dynamic-syrniki-8c5eda.netlify.app/",
                     github:"https://github.com/Maheendran/recipebook"
                     ,type:"react"
-                      },{
-                        img:"./assets/project/netflix.png",
-                        name:"Netflix",
-                        discription:"This website is a clone of 'NETFLIX' & here i implemented some functionalities, backend integreated with firebase.",
-                        tech:"HTML,CSS,JAVASCRIPT,REACT,FIREBASE",
-                        linked:"",
-                        fachebook:"https://superlative-moxie-eaac06.netlify.app/",
-                        github:"https://github.com/Maheendran/Netflix"
-                        ,type:"react"
-                          },
+                      },
                           // {
                           //       img:"./assets/project/port.png",
                           //       name:"Portfolio",
@@ -167,7 +168,26 @@ export const project=[{
           fachebook:"https://vintage-radio.netlify.app/",
           github:"https://github.com/Maheendran/Radio-clone"
           ,type:"css"
-      },
+      }, {
+        img:"./assets/project/iphone.png",
+        name:"iphone clone ",
+        discription:"This project is iphone mobile built with CSS animation.",
+        tech:"HTML,CSS",
+        linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_html5-css3-iphone-activity-6996169391008620544-hEOX?utm_source=share&utm_medium=member_desktop",
+        fachebook:"https://iphone-clone-css.netlify.app/",
+        github:"https://github.com/Maheendran/iphone-clone-css"
+        ,type:"css"
+    },
+      {
+        img:"./assets/project/kantara.png",
+        name:"Kantara ",
+        discription:"This project is Kantara movie still built with CSS animation.",
+        tech:"HTML,CSS",
+        linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_html5-css3-kantaramovie-activity-6995727463196622848-v4_L?utm_source=share&utm_medium=member_desktop",
+        fachebook:"https://kantara-movie-still.netlify.app/",
+        github:"https://github.com/Maheendran/kantara"
+        ,type:"css"
+    },
         {
           img:"./assets/project/santa.png",
           name:"Santa claus ",
@@ -187,27 +207,8 @@ export const project=[{
           fachebook:"https://cartoon-character.netlify.app/",
           github:"https://github.com/Maheendran/Cartoon-character-css"
           ,type:"css"
-      },
-        {
-          img:"./assets/project/iphone.png",
-          name:"iphone clone ",
-          discription:"This project is iphone mobile built with CSS animation.",
-          tech:"HTML,CSS",
-          linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_html5-css3-iphone-activity-6996169391008620544-hEOX?utm_source=share&utm_medium=member_desktop",
-          fachebook:"https://iphone-clone-css.netlify.app/",
-          github:"https://github.com/Maheendran/iphone-clone-css"
-          ,type:"css"
-      },
-        {
-          img:"./assets/project/kantara.png",
-          name:"Kantara ",
-          discription:"This project is Kantara movie still built with CSS animation.",
-          tech:"HTML,CSS",
-          linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_html5-css3-kantaramovie-activity-6995727463196622848-v4_L?utm_source=share&utm_medium=member_desktop",
-          fachebook:"https://kantara-movie-still.netlify.app/",
-          github:"https://github.com/Maheendran/kantara"
-          ,type:"css"
-      },{
+      }
+       ,{
           img:"./assets/project/net.png",
           name:"Netflix Logo",
           discription:"This project is Netflix logo built with CSS animation.",
