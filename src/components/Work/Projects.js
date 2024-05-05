@@ -1,8 +1,9 @@
-export const project=[{
+export const project=[
+  {
   img:"./assets/project/furnica.png",
   name:"Furnica",
   discription:"'Furnica' is a furniture website  & here i implemented some functionalities product sorting & filtering,add to cart etc.  ",
-  tech:"REACT, NODE JS, MONGO DB, JAVASCRIPT, HTML, BOOTSRTAP",
+  tech:"REACT,NODEJS,MONGODB,JAVASCRIPT,HTML,BOOTSRTAP",
   linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_nodejs-ejs-html-activity-7069265804663394304-tDkJ?utm_source=share&utm_medium=member_desktop",
   fachebook:"www.furnica.shop",
   github:"https://github.com/Maheendran/FurnicaShop"
@@ -63,6 +64,17 @@ export const project=[{
       ]
 
       export const reactdata=[ 
+        {
+          img:"./assets/project/paws.png",
+          name:"Paws",
+          discription:"Streamline pet healthcare with our user-friendly app, allowing easy appointment scheduling, vet selection and medical record management.",
+          tech:"HTML,CSS,JAVASCRIPT,REACT,MONGO DB, NODE JS, EXPRESS JS, JWT",
+          linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_socialmedia-reactjs-nodejs-activity-7009843753389633536-8bzc?utm_source=share&utm_medium=member_desktop",
+          fachebook:"",
+          github:"https://github.com/Maheendran/BUDDY_CHAT_APP"
+          ,type:"react"
+          
+            },
         {
           img:"./assets/project/buddy.png",
           name:"Buddy chat",
@@ -188,6 +200,33 @@ export const project=[{
         github:"https://github.com/Maheendran/kantara"
         ,type:"css"
     },
+
+
+    {
+      img:"./assets/project/audi.png",
+      name:"Audi Weather control",
+      discription:"This project is car controller built with CSS animation.",
+      tech:"HTML,CSS",
+      linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_auditech-drivinginnovation-audiinnovation-activity-7141651313750126592-bSbf?utm_source=share&utm_medium=member_desktop",
+      fachebook:"",
+      github:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_auditech-drivinginnovation-audiinnovation-activity-7141651313750126592-bSbf?utm_source=share&utm_medium=member_desktop"
+      ,type:"css"
+  },
+
+  {
+    img:"./assets/project/burger.png",
+    name:"burger display",
+    discription:"This project is burger display built with CSS animation.",
+    tech:"HTML,CSS",
+    linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_creativebites-animationmagic-reactjs-activity-7141655820936593408-qLn0?utm_source=share&utm_medium=member_desktop",
+    fachebook:"",
+    github:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_creativebites-animationmagic-reactjs-activity-7141655820936593408-qLn0?utm_source=share&utm_medium=member_desktop"
+    ,type:"css"
+},
+
+
+
+
         {
           img:"./assets/project/santa.png",
           name:"Santa claus ",
@@ -270,4 +309,49 @@ export const project=[{
                         ,type:"css"
                     }
                     ,
+      ]
+
+    export   const spline=[
+        {
+          img:"./assets/project/catalist.png",
+          name:"Poloride camera",
+          discription:"This project is Poloride camera built with CSS animation.",
+          tech:"Next js, Tailwind , Gsap , Framer motion",
+          linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_callista-innovation-elegance-activity-7179481209285013505-WSW8?utm_source=share&utm_medium=member_desktop",
+          fachebook:"https://poloride-camera.netlify.app/",
+          github:"https://github.com/Maheendran/poloride-camera"
+          ,type:"spline"
+      }
+    ,
+    {
+      img:"./assets/project/home.png",
+      name:"3D home",
+      discription:"This project is Poloride camera built with CSS animation.",
+      tech:"Next js, Tailwind , Gsap , Framer motion",
+      linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_react-spline-webdevelopment-activity-7176050966541058049-piIK?utm_source=share&utm_medium=member_desktop",
+      fachebook:"https://poloride-camera.netlify.app/",
+      github:"https://github.com/Maheendran/poloride-camera"
+      ,type:"spline"
+  }
+,
+{
+  img:"./assets/project/iphone3d.png",
+  name:"iphone 3d",
+  discription:"This project is Poloride camera built with CSS animation.",
+  tech:"Next js, Tailwind , Gsap , Framer motion",
+  linked:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_reactjs-gsap-spline-activity-7175433047054458880-62jm?utm_source=share&utm_medium=member_desktop",
+  fachebook:"https://poloride-camera.netlify.app/",
+  github:"https://github.com/Maheendran/poloride-camera"
+  ,type:"spline"
+}
+
+        // ,{
+        //   home:""
+        // },{
+        //   iphone:''
+        // },{
+        //   burger:'https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_creativebites-animationmagic-reactjs-activity-7141655820936593408-qLn0?utm_source=share&utm_medium=member_desktop'
+        // },{
+        //   audi:"https://www.linkedin.com/posts/maheendran-kp-aa2b9122b_auditech-drivinginnovation-audiinnovation-activity-7141651313750126592-bSbf?utm_source=share&utm_medium=member_desktop"
+        // }
       ]

@@ -79,7 +79,13 @@
   width: 100%;
   height: 100%;
 }
+.projectText{
+  font-size: 4rem;
+}
+.projectTextTwo{
+  font-size: 2rem;
 
+}
 @media screen and (max-width: 520px) {
   .card_row_main {
     width: 100%;
